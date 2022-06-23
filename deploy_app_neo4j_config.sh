@@ -23,19 +23,19 @@ sudo git clone https://github.com/engom/nlp-app.git
 cd nlp-app
 
 # to install pip & virtualenv python modules
-sudo python3 -m install pip -y
-sudo python3 -m pip install virtualenv -y
+sudo python3 -m install pip
+sudo python3 -m pip install virtualenv
 sudo python3 -m virtualenv env_app
 
 # to activate the virtual env created
 sudo source env_app/bin/activate
 
 # to install app_v2 requirements on env_app
-sudo python3 -m pip install -r requirements.text -y
+sudo python3 -m pip install -r requirements.text
 
 # to install awscli for s3 access
 #sudo apt-get update
-#sudo apt-get install awscli -y
+#sudo apt-get install awscli
 
 # to copy models weights from s3 bucket like this :
 aws s3 cp s3://my_bucket/my_folder/my_file.ext my_copied_file.ext
@@ -45,7 +45,7 @@ aws s3 cp s3://konvo-models-store/emotional_model_cmbert ./emotional_model_cmber
 
 # to install tmux for background terminal run
 sudo apt update
-sudo apt install tmux -y
+sudo apt install tmux
 
 ####################### DO THIS AFTER ##########################
 #                                                              #
