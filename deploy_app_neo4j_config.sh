@@ -19,7 +19,7 @@ sudo systemctl start neo4j.service
 sudo systemctl status neo4j.service
 
 # to clone the app github repository
-sudo git clone https://github.com/engom/nlp-app.git
+# sudo git clone https://github.com/engom/nlp-app.git
 #cd nlp-app
 
 # to install pip & virtualenv python modules
