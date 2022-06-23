@@ -30,7 +30,7 @@ idna==3.3
 importlib-metadata==4.8.3
 interchange==2021.0.4
 ipykernel==5.5.6
-ipython==7.16.3
+ipython
 ipython-genutils==0.2.0
 ipywidgets
 japanize-matplotlib==1.1.3
