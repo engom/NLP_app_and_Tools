@@ -444,7 +444,7 @@ try:
     g = Graph("bolt://52.209.29.217:7687", auth=("neo4j", "Konvo2022"))
 
     if len(comment) != 0:
-        print("SAVING PREDICTION RESULT ON NEO4J DATABASE ....")
+        print("PREDICTION GOING NEO4J DATABASE ....")
         if choice == "Sentiment":
             text = Node("Person", message=comment)
             text.__primarylabel__ = "Person"
@@ -475,5 +475,6 @@ try:
 
             EMO = Relationship.type("TEXT_EMOTION_IS")
             g.merge(EMO(text, emotion))
+            print("WELL DONE!")
 except:
-    print('Start neoj service please !')
+    print('Make sure to be connected to neo4j !')
