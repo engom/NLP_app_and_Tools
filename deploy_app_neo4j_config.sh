@@ -19,7 +19,7 @@ sudo apt upgrade
 # sudo systemctl status neo4j.service
 
 # to clone the app github repository
-sudo git clone https://github.com/engom/nlp-app.git
+# sudo git clone https://github.com/engom/nlp-app.git
 cd nlp-app
 
 # to install pip & virtualenv python modules
@@ -31,17 +31,17 @@ sudo python3 -m virtualenv env_app
 sudo source env_app/bin/activate
 
 # to install app_v2 requirements on env_app
-sudo python3 -m pip install -r requirements.text
+sudo python3 -m pip install -r requirements.txt
 
 # to install awscli for s3 access
-#sudo apt-get update
-#sudo apt-get install awscli
+sudo apt-get update
+sudo apt-get install awscli
 
 # to copy models weights from s3 bucket like this :
-aws s3 cp s3://my_bucket/my_folder/my_file.ext my_copied_file.ext
+# aws s3 cp s3://my_bucket/my_folder/my_file.ext my_copied_file.ext
 
-aws s3 cp s3://konvo-models-store/sentimental_model_cmbert ./sentimental_model_cmbert
-aws s3 cp s3://konvo-models-store/emotional_model_cmbert ./emotional_model_cmbert
+sudo aws s3 cp s3://konvo-models-store/sentimental_model_cmbert ./sentimental_model_cmbert
+sudo aws s3 cp s3://konvo-models-store/emotional_model_cmbert ./emotional_model_cmbert
 
 # to install tmux for background terminal run
 sudo apt update
