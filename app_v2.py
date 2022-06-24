@@ -460,6 +460,8 @@ try:
 
             SENTI = Relationship.type("TEXT_SENTIMENT_IS")
             g.merge(SENTI(text, sentiment))
+            print('')
+            print("WELL DONE!")
         else:
             text = Node("Person", message=comment)
             text.__primarylabel__ = "Person"
@@ -475,6 +477,7 @@ try:
 
             EMO = Relationship.type("TEXT_EMOTION_IS")
             g.merge(EMO(text, emotion))
+            print('')
             print("WELL DONE!")
 except:
     print('Make sure to be connected to neo4j !')
