@@ -20,7 +20,6 @@ sudo apt upgrade
 
 # to clone the app github repository
 # sudo git clone https://github.com/engom/nlp-app.git
-cd nlp-app
 
 # to install pip & virtualenv python modules
 sudo python3 -m install pip
