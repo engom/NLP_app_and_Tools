@@ -318,7 +318,7 @@ else:
         col1, col2 = st.columns([2, 1])
         with col1:
             comment = st.text_area("📌 paste or type text").strip()
-            submit_comment = st.form_submit_button(label='predict')
+            submit_comment = st.form_submit_button(label='✨ predict')
 
             if submit_comment:
                 if len(comment) != 0:
