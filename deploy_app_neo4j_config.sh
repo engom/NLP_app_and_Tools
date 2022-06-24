@@ -27,14 +27,14 @@ sudo python3 -m pip install virtualenv
 sudo python3 -m virtualenv env_app
 
 # to activate the virtual env created
-sudo source env_app/bin/activate
+# sudo source env_app/bin/activate
 
 # to install app_v2 requirements on env_app
 # sudo python3 -m pip install -r requirements.txt
 
 # to install awscli for s3 access
 sudo apt-get update
-sudo apt-get install awscli
+sudo apt-get install awscli -y
 
 # to copy models weights from s3 bucket like this :
 # aws s3 cp s3://my_bucket/my_folder/my_file.ext my_copied_file.ext
