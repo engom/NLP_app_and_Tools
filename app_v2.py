@@ -441,8 +441,7 @@ print("PREDICTIONS GO NEO4J DB (when it's activated).")
 #    rs:TEXT_SENTIMENT_IS
 # connect to graph with credentials
 try:
-    myserver = '52.209.29.217:7474'
-    g = Graph(f"bolt://{myserver}:7687", auth=("neo4j", "Konvo2002"))
+    g = Graph("bolt://52.209.29.217:7687", auth=("neo4j", "Konvo2022"))
 
     if len(comment) != 0:
         print("SAVING PREDICTION RESULT ON NEO4J DATABASE ....")
