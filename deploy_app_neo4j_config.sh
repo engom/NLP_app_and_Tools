@@ -23,8 +23,8 @@ sudo apt upgrade
 
 # to install pip & virtualenv python modules
 sudo apt install python3-pip
-sudo python3 -m pip install virtualenv
-sudo python3 -m virtualenv env_app
+python3 -m pip install virtualenv
+python3 -m virtualenv env_app
 
 # to activate the virtual env created
 # source env_app/bin/activate
