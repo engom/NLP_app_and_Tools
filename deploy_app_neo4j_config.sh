@@ -40,8 +40,8 @@ sudo apt-get install awscli
 # to copy models weights from s3 bucket like this :
 # aws s3 cp s3://my_bucket/my_folder/my_file.ext my_copied_file.ext
 
-sudo aws s3 cp s3://konvo-models-store/sentimental_model_cmbert ./sentimental_model_cmbert
-sudo aws s3 cp s3://konvo-models-store/emotional_model_cmbert ./emotional_model_cmbert
+sudo aws s3 cp s3://konvo-models-store/sentimental_model_cmbert.pth ./sentimental_model_cmbert.pth
+sudo aws s3 cp s3://konvo-models-store/emotional_model_cmbert.pth ./emotional_model_cmbert.pth
 
 # to install tmux for background terminal run
 sudo apt update
