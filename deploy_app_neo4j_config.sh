@@ -22,7 +22,7 @@ sudo apt upgrade
 # sudo git clone https://github.com/engom/nlp-app.git
 
 # to install pip & virtualenv python modules
-sudo python3 -m install pip
+sudo apt install python3-pip
 sudo python3 -m pip install virtualenv
 sudo python3 -m virtualenv env_app
 
