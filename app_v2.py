@@ -99,8 +99,8 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # 5 examples from dotissimo.fr
 text_0 = "Je me sens bien maintenant. Je suis bien guéri et je retrouve le goût de la vie. Merci à toutes et à tous pour le soutien dans ce forum."
-text_1 = "Mon diabète est très bien régulé. Je me sens mieux."
-text_2 = "Je me sens très mal entre chaque repas ..."
+text_1 = "Mon diabète est très bien régulé."
+text_2 = "Je me sens très mal entre chaque repas ... Est-ce normal, j'ai peur"
 text_3 = "Je n'ai pas eu de vertige depuis longtemps."
 text_4 = "J'aimerais revoir mon médecin pour adapter mon traitement."
 text_5 = "J'ai eu un problème hier et je me suis fait mordre les seins on va dire. Mon sein a une croute et des bleus sur les mamelons. Ils me font super mal. Les tétons pointent alors qu'ils ne pointent jamais autant. Je ne sais pas dans quel catégorie je pouvais mettre ça. Et je ne sais surtout pas si il y a un risque de quelque chose en sachant que c'était un homme."
