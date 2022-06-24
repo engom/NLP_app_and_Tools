@@ -30,7 +30,7 @@ sudo python3 -m virtualenv env_app
 sudo source env_app/bin/activate
 
 # to install app_v2 requirements on env_app
-sudo python3 -m pip install -r requirements.txt
+# sudo python3 -m pip install -r requirements.txt
 
 # to install awscli for s3 access
 sudo apt-get update
