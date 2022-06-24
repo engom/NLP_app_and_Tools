@@ -23,17 +23,15 @@ sudo apt upgrade
 
 # to install pip & virtualenv python modules
 sudo apt install python3-pip
-sudo python3 -m apt install python3.10-venv
-# python3 -m venv env_app
 
-# python3 -m pip install virtualenv
-# python3 -m virtualenv env_app
+# sudo python3 -m pip install virtualenv
+# sudo python3 -m virtualenv env_app
 
 # to activate the virtual env created
 # source env_app/bin/activate
 
 # to install app_v2 requirements on env_app
-# python3 -m pip install -r requirements.txt
+# sudo pip install -r requirements.txt
 
 # to install awscli for s3 access
 sudo apt update
