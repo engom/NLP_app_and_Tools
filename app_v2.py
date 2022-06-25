@@ -410,8 +410,8 @@ if not submit_comment:
     st.stop()
 
 ######## SAVE TEXT AND CLASSES INT NEO4J DATABASE #####################
-print("PREDICTIONS GO NEO4J DB (when it's activated).")
-
+print("PREDICTIONS GO TO NEO4J DB (when it's activated).")
+print('')
 ################################################################
 # username: neo4j
 # password: *********
@@ -444,7 +444,8 @@ try:
     g = Graph("bolt://52.209.29.217:7687", auth=("neo4j", "Konvo2022"))
 
     if len(comment) != 0:
-        print("PREDICTION GOING NEO4J DATABASE ....")
+        print("PREDICTION GOING TO NEO4J DATABASE ....")
+        print('')
         if choice == "Sentiment":
             text = Node("Person", message=comment)
             text.__primarylabel__ = "Person"
